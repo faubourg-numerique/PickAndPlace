@@ -1,0 +1,28 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "title": "gripper",
+  "securityDefinitions": {
+      "nosec_sc": {
+          "scheme": "nosec"
+      }
+  },
+  "security": "nosec_sc",
+  "properties": {
+      "state": {
+          "title": "state",
+          "type": "boolean",
+          "observable": true
+      }
+  },
+  "actions": {
+      "open": {
+          "title": "open"
+                },
+     "close": {
+          "title": "close"
+                }        
+        
+      }
+  }
+
+

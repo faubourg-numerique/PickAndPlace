@@ -1,0 +1,18 @@
+{
+  "@context": "https://www.w3.org/2019/wot/td/v1",
+  "title": "control",
+  "securityDefinitions": {
+      "nosec_sc": {
+          "scheme": "nosec"
+      }
+  },
+  "security": "nosec_sc",
+
+  "actions": {
+      "PickAndPlace": {
+          "title": "PickAndPlace"
+      }
+  }
+
+}
+
